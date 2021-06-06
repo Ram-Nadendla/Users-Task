@@ -1,10 +1,12 @@
+// Post Schema
+
 const mongoose = require("mongoose");
 
 const usersSchema = new mongoose.Schema(
   {
     name: String,
     mobile: {
-      type: String,
+      type: '123-456-8900',
       unique: true,
     },
     email: String,
